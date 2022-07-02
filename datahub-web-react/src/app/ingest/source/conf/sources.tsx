@@ -18,6 +18,7 @@ import oracleConfig from './oracle/oracle';
 import arangoDBConfig from './arangodb/arangodb';
 import hdfsConfig from './hdfs/hdfs';
 import tidbConfig from './tidb/tidb';
+import ldapConfig from './ldap/ldap';
 
 const baseUrl = window.location.origin;
 
@@ -38,6 +39,7 @@ export const SOURCE_TEMPLATE_CONFIGS: Array<SourceConfig> = [
     arangoDBConfig,
     hiveConfig,
     tidbConfig,
+    ldapConfig,
     bigqueryConfig,
     redshiftConfig,
     snowflakeConfig,
