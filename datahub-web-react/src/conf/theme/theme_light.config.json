@@ -24,7 +24,7 @@
         "logoUrl": "/assets/logo.png"
     },
     "content": {
-        "title": "DataHub",
+        "title": "Zalopay Datahub",
         "subtitle": "Taming data complexity together with Risk Management & Data Platform teams",
         "homepage": {
             "homepageMessage": "Find data you can count on"
@@ -33,7 +33,18 @@
             "searchbarMessage": "Search Datasets, People, & more..."
         },
         "menu": {
-            "items": []
+            "items": [
+                {
+                    "label": "Zalopay",
+                    "path": "https://zalopay.vn",
+                    "shouldOpenInNewTab": true
+                },
+                {
+                    "label": "DataHub Project",
+                    "path": "https://datahubproject.io",
+                    "shouldOpenInNewTab": true
+                }
+            ]
         }
     }
 }
